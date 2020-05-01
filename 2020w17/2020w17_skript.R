@@ -46,7 +46,7 @@ ggplot() +
                lineend = "round") + 
   # Y axis - black line
   geom_segment(data = ranking, 
-               aes(x = x_axis_start, y = mid_y+20, xend = x_axis_start, yend = mid_y+50), alpha = .6, size = 1.3, color = "black") +
+               aes(x = x_axis_start, y = 40, xend = x_axis_start, yend = 67), alpha = .6, size = 1.3, color = "black") +
   # dot on centroid of country in map
   geom_point(data = ranking, 
              aes(x = X, y = Y, color = fine_cap), size = 2) +
